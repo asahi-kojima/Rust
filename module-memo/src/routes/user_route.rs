@@ -1,5 +1,7 @@
+use crate::routes::models::user_models::print_user_model;
+
 pub fn print_user_route()
 {
-    super::models::user_models::print_user_model();
+    print_user_model();
     println!("user_route");
 }

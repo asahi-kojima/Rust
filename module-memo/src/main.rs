@@ -1,7 +1,8 @@
 //https://www.sheshbabu.com/posts/rust-module-system/
 mod config;//ファイル自身をModuleとみなす
 mod routes;//moduleとなるディレクトリがある
-
+//module = module-file or module
+//modキーワードは現在のモジュールのサブモジュールとして追加するためのコマンド
 fn main() {
     config::print_config();
     routes::health_route::print_health_route();
